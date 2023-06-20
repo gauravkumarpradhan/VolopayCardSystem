@@ -33,7 +33,7 @@ Tech Stack used for making the Project are
   
 
 Points which i have achieved in the project which was told to implement:
-
+<hr/>
 <ul>
   <li>When a user clicks on your tab they should see cards belonging to them through owner_id.</li> 
 <li> Create a page with [Your, all, blocked] cards tabs.</li>
@@ -47,9 +47,15 @@ Points which i have achieved in the project which was told to implement:
 </ul>
 
 
-Some of the screenshots from the website
+### Some of the screenshots from the website
 <hr/>
 
+
+![Screenshot_20230620_221533](https://github.com/gauravkumarpradhan/VolopayCardSystem/assets/137155587/6edc641f-ae4a-4bbf-a180-a00f2faf960b)
+
+![Screenshot_20230620_221644](https://github.com/gauravkumarpradhan/VolopayCardSystem/assets/137155587/8a7564dd-9c3c-4410-90ff-981bce1f5542)
+
+![Screenshot_20230620_215340](https://github.com/gauravkumarpradhan/VolopayCardSystem/assets/137155587/7cd489bb-15b9-43f6-b323-0e8823426de0)
 
 
 
