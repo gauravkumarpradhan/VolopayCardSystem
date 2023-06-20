@@ -21,15 +21,18 @@ Start the development server: Once the dependencies are installed, you can start
 
 
 
-#Tech Stack used for making the Project are 
+Tech Stack used for making the Project are 
+
+<ul>
   <li>React.js</li>
   <li>Redux</li>
   <li>Javascript</li>
   <li>Css</li>
   <li>react-icons</li>
+</ul>
+  
 
-
-#Points which i have achieved in the project which was told to implement:
+Points which i have achieved in the project which was told to implement:
 
 <ul>
   <li>When a user clicks on your tab they should see cards belonging to them through owner_id.</li> 
