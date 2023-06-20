@@ -1,0 +1,83 @@
+:root {
+  box-sizing: border-box;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-element {
+  margin-right: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.search-filter-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.filter-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #c5c5c5;
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.filter-label {
+  margin-left: 8px;
+}
+
+.filter-form {
+  width: 400px;
+  height: 160px;
+}
+
+.type-label {
+  font-weight: 300;
+  color: #383434;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.subscription-label {
+  margin-right: 50px;
+}
+
+#burner,
+#subscription {
+  margin-right: 12px;
+}
+
+.search-section {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 3.5px;
+}

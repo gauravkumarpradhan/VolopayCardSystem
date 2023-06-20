@@ -1,0 +1,139 @@
+:root {
+  box-sizing: border-box;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.sub-section {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.load-more-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.upper-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-section {
+  width: 300px;
+  height: 164px;
+  box-shadow: rgb(240, 240, 240) 0px 10px 20px, rgb(240, 240, 240) 0px 2px 6px,
+    rgb(240, 240, 240) 0px 0px 1px;
+  padding: 16px;
+}
+
+.basic-info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.counts-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.expenditure-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.conclusion-section {
+  width: 100%;
+}
+
+.expenditure-title-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.names-section {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.names-section > h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card-type > h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+}
+
+.card-type {
+  margin-bottom: 16px;
+}
+
+.counts-title {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.counts-number {
+  margin-bottom: 12px;
+}
+
+.expenditure-section {
+  margin-bottom: 12px;
+}
+
+.icon {
+  color: #ff3659;
+  size: 50px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.first-dot {
+  color: #ff647f;
+  size: 40px;
+}
+
+.second-color {
+  color: #00d100;
+}
+
+.load-more-btn {
+  color: #912d3e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
