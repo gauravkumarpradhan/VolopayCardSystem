@@ -377,7 +377,7 @@ export const data1 = {
         {
             name: "Mixmax",
             budget_name: "Software subscription",
-            owner_id: 1,
+            owner_id: 2,
             spent: {
                 value: 100,
                 currency: "SGD"
@@ -394,7 +394,7 @@ export const data1 = {
         {
             name: "Quickbooks’",
             budget_name: "Software subscription",
-            owner_id: 2,
+            owner_id: 1,
             spent: {
                 value: 50,
                 currency: "SGD"

@@ -1,6 +1,6 @@
 import { data1 } from "../../db";
 
-export const accountReducer = (state = { tabType: 'Your', data: data1, filteredData: [], filterByName: "" }, action) => {
+export const accountReducer = (state = { tabType: 'Your', data: data1, filteredData: [], filterByName: "", owner_id: 2 }, action) => {
     let newState = {};
     const data = state.filteredData.length > 0 ? state.filteredData : state.data[state.tabType];
     switch (action.type) {

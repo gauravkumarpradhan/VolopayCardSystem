@@ -10,26 +10,28 @@ const Card = () => {
 	const data = useSelector(state => state.account.data);
 	const filterData = useSelector(state => state.account.filteredData);
 	const name = useSelector(state => state.account.filterByName);
+	const owner_id = useSelector(state => state.account.owner_id);
 	let reqData = filterData.length > 0 ? filterData : data[tabType];
 	const [paginationObj, setPaginationObj] = useState({ paginatedData: [], page: 1, limit: 10 });
 
-
-	const handle = async () => {
-
-	}
-
 	const showCard = (cardInfo) => {
-		if (name.length <= 0) {
-			return true;
-		}
-		else {
-			if (name.toLowerCase() == cardInfo.name.toLowerCase()) {
+		if (cardInfo.owner_id == owner_id) {
+			if (name.length <= 0) {
 				return true;
 			}
 			else {
-				return false;
+				if (name.toLowerCase() == cardInfo.name.toLowerCase()) {
+					return true;
+				}
+				else {
+					return false;
+				}
 			}
 		}
+		else {
+			return false;
+		}
+
 	}
 
 
