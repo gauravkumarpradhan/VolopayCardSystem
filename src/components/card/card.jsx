@@ -43,7 +43,7 @@ const Card = () => {
 			paginationObj.paginatedData = [];
 		}
 		const startIndex = (page - 1) * limit;
-		const endIndex = page * limit;
+		const endIndex = (page * limit) + 1;
 		let newData = [];
 		if (reqData.length > endIndex) {
 			newData = reqData.slice(startIndex, endIndex);
