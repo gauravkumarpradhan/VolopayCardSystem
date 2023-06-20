@@ -28,18 +28,20 @@ Start the development server: Once the dependencies are installed, you can start
   <li>Css</li>
   <li>react-icons</li>
 
+
 #Points which i have achieved in the project which was told to implement:
 
-1> When a user clicks on your tab they should see cards belonging to them through owner_id.
-2> Create a page with [Your, all, blocked] cards tabs.
-3> Cards can be of two types ['burner', "subscription"]
-4> for burner cards show expiry in card design
-5> for subscription card show limit as shown
-6> A card type is displayed on the top right corner of each card, you can refer to the image for the icon.
-7> Since API response will be paginated you need to implement infinite scroll to fetch more data, you can fetch 10 records per call.
-8> Implement search by card name.
-9> Filter by card type is mandatory. Refer to the figure below.
-
+<ul>
+  <li>When a user clicks on your tab they should see cards belonging to them through owner_id.</li> 
+<li> Create a page with [Your, all, blocked] cards tabs.</li>
+<li>Cards can be of two types ['burner', "subscription"]</li>
+<li>for burner cards show expiry in card design</li>
+<li>for subscription card show limit as shown</li>
+<li>A card type is displayed on the top right corner of each card, you can refer to the image for the icon.</li>
+<li>Since API response will be paginated you need to implement infinite scroll to fetch more data, you can fetch 10 records per call.</li>
+<li>Implement search by card name.</li>
+<li>Filter by card type is mandatory. Refer to the figure below.</li>
+</ul>
 
 
 
