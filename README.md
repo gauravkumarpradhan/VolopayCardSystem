@@ -1,4 +1,4 @@
-# You can watch the website live at the following url : <a href="https://6491ca87cf1e8406f44dba18--steady-tarsier-4be260.netlify.app/" target="_blank">Google</a>
+# You can watch the website live at the following url : <a href="https://6491ca87cf1e8406f44dba18--steady-tarsier-4be260.netlify.app/" target="_blank">Live Website Running in Netlify</a>
 
 ## To clone a the project from GitHub and run it locally, you can follow these steps:
 
