@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# You can watch the website live at the following url : <a href="https://6491ca87cf1e8406f44dba18--steady-tarsier-4be260.netlify.app/" target="_blank">Google</a>
 
 ## To clone a the project from GitHub and run it locally, you can follow these steps:
 
@@ -8,7 +6,7 @@ Navigate to the directory where you want to clone the project: Use the cd comman
 
 ### `cd Documents`
 
-Go to the GitHub page of the React project you want to clone. Copy the repository's URL (e.g., https://github.com/username/projectname.git). In your terminal, run the following command:
+Clone the project into your local by running the below command
 ### `git clone https://github.com/gauravkumarpradhan/VolopayCardSystem.git`
 
 Enter the cloned project directory: After the cloning process completes, use the cd command to enter the project directory:
@@ -20,3 +18,5 @@ Install project dependencies: React projects typically use npm (Node Package Man
 
 Start the development server: Once the dependencies are installed, you can start the development server using the following command:
 ### `npm start`
+
+
