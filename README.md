@@ -22,11 +22,11 @@ Start the development server: Once the dependencies are installed, you can start
 
 
 #Tech Stack used for making the Project are 
-<li>React.js</li>
-<li>Redux</li>
-<li>Javascript</li>
-<li>Css</li>
-<li>react-icons</li>
+  <li>React.js</li>
+  <li>Redux</li>
+  <li>Javascript</li>
+  <li>Css</li>
+  <li>react-icons</li>
 
 
 
