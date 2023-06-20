@@ -58,7 +58,7 @@ const Card = () => {
 	useEffect(() => {
 		setPaginationObj({ paginatedData: [], page: 1, limit: 10 });
 		handlePagination(tabType);
-	}, [tabType]);
+	}, [tabType, filterData]);
 
 	useEffect(() => {
 		handlePagination();
@@ -104,6 +104,7 @@ const Card = () => {
 			<div className='load-more-section'>
 				<button className='load-more-btn' onClick={handlePagination}>Load More</button>
 			</div>
+			<div><i>Note: You will only be able to see the cards whose owner id is 2</i></div>
 		</div>
 	)
 }

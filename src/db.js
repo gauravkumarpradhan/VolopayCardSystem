@@ -17,7 +17,7 @@ export const data1 = {
             status: "active"
         },
         {
-            name: "books’",
+            name: "bookslakdfja",
             budget_name: "Software subscription",
             owner_id: 2,
             spent: {
@@ -215,7 +215,7 @@ export const data1 = {
             limit: 10,
             status: "active"
         }, {
-            name: "books’",
+            name: "booksfadfaldj",
             budget_name: "Software subscription",
             owner_id: 2,
             spent: {
@@ -230,7 +230,7 @@ export const data1 = {
             limit: 10,
             status: "active"
         }, {
-            name: "books’",
+            name: "booksslfjaskdfn",
             budget_name: "Software subscription",
             owner_id: 2,
             spent: {
@@ -245,7 +245,7 @@ export const data1 = {
             limit: 10,
             status: "active"
         }, {
-            name: "books’",
+            name: "bookslkfkjagsjf",
             budget_name: "Software subscription",
             owner_id: 2,
             spent: {
@@ -260,7 +260,7 @@ export const data1 = {
             limit: 10,
             status: "active"
         }, {
-            name: "books’",
+            name: "booksafldja",
             budget_name: "Software subscription",
             owner_id: 2,
             spent: {
@@ -275,7 +275,7 @@ export const data1 = {
             limit: 10,
             status: "active"
         }, {
-            name: "books’",
+            name: "booksourqioe",
             budget_name: "Software subscription",
             owner_id: 2,
             spent: {
@@ -290,7 +290,7 @@ export const data1 = {
             limit: 10,
             status: "active"
         }, {
-            name: "books’",
+            name: "booksslarueio",
             budget_name: "Software subscription",
             owner_id: 2,
             spent: {
@@ -341,7 +341,7 @@ export const data1 = {
             status: "active"
         },
         {
-            name: "books’",
+            name: "bookslajfdkf",
             budget_name: "Software subscription",
             owner_id: 2,
             spent: {
