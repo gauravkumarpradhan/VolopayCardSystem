@@ -11,7 +11,7 @@ export const accountReducer = (state = { tabType: 'Your', data: data1, filteredD
             break;
 
         case 'setFilterDataByModal':
-            const filteredData = data.filter((card) => (action.payload.subscription && card.card_type == 'subscription') || (action.payload.burner && card.card_type == 'burner'))
+            const filteredData = data.filter((card) => (action.payload.subscription && card.card_type === 'subscription') || (action.payload.burner && card.card_type === 'burner'))
             newState = { ...state, filteredData };
             break;
 

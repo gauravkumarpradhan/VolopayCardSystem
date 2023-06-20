@@ -15,12 +15,12 @@ const Card = () => {
 	const [paginationObj, setPaginationObj] = useState({ paginatedData: [], page: 1, limit: 10 });
 
 	const showCard = (cardInfo) => {
-		if (cardInfo.owner_id == owner_id) {
+		if (cardInfo.owner_id === owner_id) {
 			if (name.length <= 0) {
 				return true;
 			}
 			else {
-				if (name.toLowerCase() == cardInfo.name.toLowerCase()) {
+				if (name.toLowerCase() === cardInfo.name.toLowerCase()) {
 					return true;
 				}
 				else {
@@ -87,8 +87,8 @@ const Card = () => {
 
 								<div className='counts-section'>
 
-									{cardInfo.expiry && cardInfo.card_type == 'burner' && <StatsSection statsLabel={'Expiry'} value={cardInfo.expiry} />}
-									{cardInfo.limit && cardInfo.card_type == 'subscription' && <StatsSection statsLabel={'Limit'} value={cardInfo.limit} />}
+									{cardInfo.expiry && cardInfo.card_type === 'burner' && <StatsSection statsLabel={'Expiry'} value={cardInfo.expiry} />}
+									{cardInfo.limit && cardInfo.card_type === 'subscription' && <StatsSection statsLabel={'Limit'} value={cardInfo.limit} />}
 
 								</div>
 								<div className='conclusion-section'>
@@ -115,7 +115,7 @@ const Icon = ({ cardType }) => {
 	return (
 		<div className='icon-container' style={{ background: cardType === 'burner' ? '#FFD68A' : '#ffc0cb' }}>
 			{
-				cardType == 'burner' ? (
+				cardType === 'burner' ? (
 					<BsFire size='15px' color='#F05B06' />
 				) : (
 					<BiRefresh className='icon' size='30px' />
@@ -135,7 +135,7 @@ const ExpenditureSection = ({ expenditureType, value, currency }) => {
 						{
 							width: '10px',
 							height: '10px', borderRadius: '50%',
-							background: expenditureType == 'Spend' ? '#ff647f' : '#00d100',
+							background: expenditureType === 'Spend' ? '#ff647f' : '#00d100',
 							marginRight: '8px'
 						}}>
 

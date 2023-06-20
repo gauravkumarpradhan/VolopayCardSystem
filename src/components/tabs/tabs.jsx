@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import './tabs-styles.css';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { BsFilter } from 'react-icons/bs';
@@ -36,7 +36,7 @@ const Tabs = () => {
     }
 
     const handleCloseModal = (type) => {
-        if (type == 'cancel') {
+        if (type === 'cancel') {
             setIsOpen(false);
         }
         else {
