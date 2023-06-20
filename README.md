@@ -20,3 +20,8 @@ Start the development server: Once the dependencies are installed, you can start
 ### `npm start`
 
 
+
+#Tech Stack used for making the Project are 
+
+
+
